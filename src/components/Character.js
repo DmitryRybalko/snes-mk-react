@@ -23,7 +23,12 @@ const Character = ({
   return (
     <>
       <div className="character" key={id} onClick={announceNameHandler}>
-        <img onClick={showModalHandler} src={profilePic} alt={name} />
+        <img
+          className="character__avatar"
+          onClick={showModalHandler}
+          src={profilePic}
+          alt={name}
+        />
       </div>
       <Modal
         combo={combo}

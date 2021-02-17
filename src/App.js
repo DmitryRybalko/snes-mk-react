@@ -2,6 +2,7 @@ import { Route, Switch, useLocation } from "react-router-dom";
 import Select from "./components/Select";
 import Title from "./components/Title";
 import { AnimatePresence } from "framer-motion";
+import "./styles/App.scss";
 
 function App() {
   const location = useLocation();

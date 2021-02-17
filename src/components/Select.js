@@ -19,12 +19,12 @@ const Select = () => {
   ));
   return (
     <>
-      <div className="selection-container">
+      <div className="select-container">
         <motion.div
           variants={characterAnimation}
           initial="hidden"
           animate="show"
-          className="selection"
+          className="select"
         >
           {characters}
         </motion.div>

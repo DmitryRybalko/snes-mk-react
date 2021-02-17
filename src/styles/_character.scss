@@ -1,0 +1,17 @@
+$base-width: 8rem;
+$base-height: 9rem;
+
+.character {
+  cursor: pointer;
+  width: $base-width;
+  height: $base-height;
+  border-radius: 7%;
+}
+
+.character__avatar {
+  border: 3px solid white;
+  border-radius: 7%;
+  width: $base-width;
+  height: $base-height;
+  object-fit: cover;
+}

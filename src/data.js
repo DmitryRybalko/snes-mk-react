@@ -158,7 +158,6 @@ const roster = [
       "Arrow: Down, Back, B",
       "Hatchet Uppercut: Down, Forward, Y",
       "Green Shoulder Charge: Forward, Forward, A",
-      "Red Shoulder Charge: Back, Back, Forward, X",
       "Glow Shield: Back, Back, Back, X",
     ],
     finishingMoves: [

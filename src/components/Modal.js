@@ -26,10 +26,10 @@ const Modal = ({
           ref={modalRef}
           onClick={closeModalHandler}
         >
-          <div className="modal-special-moves">
-            <div className="close-modal-container">
+          <div className="modal">
+            <div className="modal__close__container">
               <MdClose
-                className="close-modal"
+                className="modal__close"
                 onClick={() => setShowModal((prev) => !prev)}
               />
             </div>
