@@ -4,7 +4,7 @@ const Toggle = ({ children, title }) => {
   const [toggle, setToggle] = useState(false);
   return (
     <div className="toggle" onClick={() => setToggle(!toggle)}>
-      <h3>{title}</h3>
+      <h3 className="toggle__title">{title}</h3>
       {toggle ? children : ""}
     </div>
   );

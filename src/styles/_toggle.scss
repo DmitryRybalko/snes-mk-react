@@ -1,0 +1,23 @@
+.toggle {
+  width: 90%;
+  cursor: pointer;
+  margin: 1rem auto;
+  border: 3px solid black;
+  border-radius: 1.5rem;
+  &:hover {
+    border: 3px solid #129792;
+  }
+}
+
+.toggle__title {
+  margin: 0 auto;
+  font-family: sans-serif, Helvetica, Arial;
+  font-size: 1.7rem;
+  padding: 0.5rem;
+}
+
+.moves {
+  font-family: sans-serif, Arial, Helvetica;
+  font-size: 1.4rem;
+  padding: 0.5rem;
+}

@@ -35,17 +35,23 @@ const Modal = ({
             </div>
             <Toggle title={"Special Moves"}>
               {characterMoves.map((m) => (
-                <p key={uuidv4()}>{m}</p>
+                <p className="moves" key={uuidv4()}>
+                  {m}
+                </p>
               ))}
             </Toggle>
             <Toggle title={"Finishing Moves"}>
               {finishingMoves.map((fm) => (
-                <p key={uuidv4()}>{fm}</p>
+                <p className="moves" key={uuidv4()}>
+                  {fm}
+                </p>
               ))}
             </Toggle>
             <Toggle title={"Combo Moves"}>
               {combo.map((c) => (
-                <p key={uuidv4()}>{c}</p>
+                <p className="moves" key={uuidv4()}>
+                  {c}
+                </p>
               ))}
             </Toggle>
           </div>
